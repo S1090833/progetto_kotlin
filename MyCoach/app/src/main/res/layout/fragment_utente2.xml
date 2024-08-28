@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/nomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:text="Nome"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cognomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:text="Cognome"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toEndOf="@+id/nomeTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cognomeTextView" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="153dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/emailLabel"
+        app:layout_constraintTop_toBottomOf="@id/cognomeTextView" />
+
+    <TextView
+        android:id="@+id/telefonoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Telefono:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailTextView" />
+
+    <TextView
+        android:id="@+id/telefonoTextView"
+        android:layout_width="160dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Telefono"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/telefonoLabel"
+        app:layout_constraintTop_toBottomOf="@id/emailTextView" />
+
+    <TextView
+        android:id="@+id/pesoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Peso:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefonoTextView" />
+
+    <TextView
+        android:id="@+id/pesoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Peso"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/pesoLabel"
+        app:layout_constraintTop_toBottomOf="@id/telefonoTextView" />
+
+    <TextView
+        android:id="@+id/altezzaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Altezza:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pesoTextView" />
+
+    <TextView
+        android:id="@+id/altezzaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Altezza"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/altezzaLabel"
+        app:layout_constraintTop_toBottomOf="@id/pesoTextView" />
+
+    <TextView
+        android:id="@+id/bmiLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="Giorni di allenamento:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/altezzaTextView" />
+
+    <TextView
+        android:id="@+id/bmiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:text="BMI"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/bmiLabel"
+        app:layout_constraintTop_toBottomOf="@id/altezzaTextView" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="49dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/colore_button"
+        android:src="@drawable/baseline_logout_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

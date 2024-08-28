@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="17dp"
+            android:src="@drawable/baseline_person_24" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="38dp"
+            android:layout_toStartOf="@+id/elimina"
+            android:layout_toEndOf="@+id/user_icon"
+            android:padding="1dp"
+            android:text="nome"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/cognome"
+            android:layout_width="178dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/nome"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="-32dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toStartOf="@+id/elimina"
+            android:layout_toEndOf="@+id/user_icon"
+            android:padding="1dp"
+            android:text="cognome"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/elimina"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/colore_button"
+            android:contentDescription="Elimina"
+            android:src="@drawable/baseline_delete_24" />
+
+</RelativeLayout>

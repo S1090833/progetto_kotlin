@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emailAll" type="id" />
+    <item name="bmiTextView" type="id" />
+    <item name="pesoTextView" type="id" />
+    <item name="altezzaTextView" type="id" />
+    <item name="telefonoTextView" type="id" />
+    <item name="emailTextView" type="id" />
+    <item name="nomeTextView" type="id" />
+    <item name="cognomeTextView" type="id" />
+    <item name="userIcon" type="id" />
+    <item name="bmiLabel" type="id" />
+    <item name="altezzaLabel" type="id" />
+    <item name="pesoLabel" type="id" />
+    <item name="telefonoLabel" type="id" />
+    <item name="emailLabel" type="id" />
+</resources>

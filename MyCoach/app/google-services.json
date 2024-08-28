@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "104832923538",
+    "project_id": "mycoach-52677",
+    "storage_bucket": "mycoach-52677.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104832923538:android:b08293ee45aa5522e5334b",
+        "android_client_info": {
+          "package_name": "com.example.mycoach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_erlUgmImWOMNw_A5dUC8QbINDrYY-IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

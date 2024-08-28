@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_alignParentBottom="true"
+    >
+
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="28dp"
+
+            android:padding="9dp"
+            android:text="nome"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="35dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:padding="2dp"
+            android:text="serie"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/nome"
+            android:text="Serie" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/serie"
+            android:text="Reps" />
+
+        <TextView
+            android:id="@+id/reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="35dp"
+            android:layout_toEndOf="@+id/textView4"
+            android:padding="2dp"
+            android:text="reps"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+</RelativeLayout>

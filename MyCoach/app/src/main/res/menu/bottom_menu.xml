@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/utente"
+        android:title="@string/utente"
+        android:icon="@drawable/utente"/>
+
+    <item
+        android:id="@+id/allenamento"
+        android:title="@string/allenamento"
+        android:icon="@drawable/allenamento"/>
+
+    <item
+        android:id="@+id/storico"
+        android:title="@string/storico"
+        android:icon="@drawable/storico"/>
+
+</menu>
